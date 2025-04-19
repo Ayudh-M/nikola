@@ -23,3 +23,8 @@ if 'short' in sys.argv:
     print(".".join([str(i) for i in sys.version_info[0:limit]]))
 else:
     print("v" + (".".join([str(i) for i in sys.version_info[0:limit]])))
+    
+if 'short' in sys.argv:
+    print(".".join([str(i) for i in sys.version_info[0:limit]]))
+else:
+    print("v" + (".".join([str(i) for i in sys.version_info[0:limit]])))
